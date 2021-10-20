@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Colors */
+:root {
+    font-size: 112.5%;
+    --green: hsl(160deg, 100%, 30%);
+    --gold-lighter: hsl(45deg, 100%, 50%);
+    --gold-darker: hsl(45deg, 100%, 40%);
+    --black: hsl(0deg, 0%, 0%);
+    --gray-darker: hsl(0deg, 0%, 10%);
+    --gray-dark: hsl(0deg, 0%, 30%);
+    --gray-medium: hsl(0deg, 0%, 40%);
+    --gray-light: hsl(0deg, 0%, 60%);
+    --white: hsl(0deg, 0%, 100%);
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-size: 1rem;
+}
+/* Add styles here! */
+
+header {
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.intro-chunk {
+    font-size: 1.25rem;
+    max-width: 34ch;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.intro-chunk strong {
+    color: var(--green);
+
+}
+
+.max-width-wrapper {
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    background-color: var(--gray-light);
+    border-top: 6px solid var(--gray-medium);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.card {
+    background-color: var(--white);
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    line-height: 1.5;
+}
+
+.card p {
+    margin-top: 1em;
+    margin-bottom:0;
+}
+
+
+.indented-heading {
+    background-color: var(--gold-lighter);
+    width: fit-content;
+    padding: 12px 48px;
+    margin-left: -48px;
+    border-bottom: 6px solid var(--gold-darker);
+}
